@@ -1,0 +1,4238 @@
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  /* overflow must stay visible so position:sticky works on .desktop-1__topper */
+  overflow: visible;
+}
+.desktop-1__topper {
+  background: #ffffff;
+  padding: 12px clamp(16px, 17.7vw, 340px);
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.desktop-1__frame-37560 {
+  display: flex;
+  flex-direction: row;
+  gap: 865px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__logo {
+  flex-shrink: 0;
+  width: 148px;
+  height: 44px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 148/44;
+}
+.desktop-1__share-your-exploria-resorts-memories {
+  color: #239d93;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__widget {
+  background: var(--orange, #e5701c);
+  border-radius: 40px;
+  padding: 8px 16px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 233px;
+  position: relative;
+  backdrop-filter: blur(20px);
+}
+.desktop-1__cta {
+  background: var(--white, #ffffff);
+  border-radius: 24px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__call {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__frame-37571 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__call-to-activate {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1___321-378-1664 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__frame-37618 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 850px;
+  position: relative;
+  box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.desktop-1__frame-37621 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: stretch;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: visible;
+}
+.hero-carousel__bgs {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero-carousel__slide-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.65s ease-in-out, visibility 0.65s ease-in-out;
+  z-index: 0;
+}
+.hero-carousel__slide-bg.is-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+.hero-carousel__foreground {
+  position: relative;
+  z-index: 2;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+.hero-carousel__slides-main {
+  position: relative;
+  width: 664px;
+  height: 631px;
+  flex-shrink: 0;
+  overflow: visible;
+}
+.hero-carousel__slide-main {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.65s ease-in-out, visibility 0.65s ease-in-out;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero-carousel__slide-main.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 1;
+}
+.hero-carousel__dots {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 4;
+  width: auto;
+}
+.hero-carousel__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.28s ease, border-color 0.28s ease,
+    transform 0.2s ease;
+}
+.hero-carousel__dot.is-active {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.hero-carousel__dot:hover {
+  transform: scale(1.08);
+}
+.hero-carousel__dot:not(.is-active):hover {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: #ffffff;
+}
+.hero-carousel__dot:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-carousel__slide-bg,
+  .hero-carousel__slide-main {
+    transition-duration: 0.01ms;
+  }
+  .hero-carousel__dot {
+    transition-duration: 0.01ms;
+  }
+  .desktop-1__frame-37580-play,
+  .resorts-carousel__arrow,
+  .resorts-carousel__tab,
+  .resorts-carousel__dot,
+  .desktop-1__video-modal-close,
+  .desktop-1__button-primary,
+  .desktop-1__button-primary2 {
+    transition-duration: 0.01ms;
+  }
+}
+.desktop-1__hero-photo-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.desktop-1__hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+.desktop-1__hero-bg-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.desktop-1__couple-photo-wrap {
+  flex-shrink: 0;
+  width: 664px;
+  height: 631px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__couple-photo-wrap .desktop-1__couple-photo-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.desktop-1__couple-photo-1 {
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__stepper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__step {
+  background: #ffffff;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.desktop-1__step2 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  aspect-ratio: 1;
+}
+/* Orlando, Daytona Beach, and Poconos hero slides */
+.hero-carousel__slide-main .desktop-1__story-stamp-wrap {
+  position: absolute;
+  left: 32px;
+  top: 17px;
+  width: auto;
+  height: auto;
+  max-height: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  pointer-events: none;
+}
+.desktop-1__story-stamp-inner {
+  flex-shrink: 0;
+  transform: rotate(-18.51deg);
+  max-height: 120px;
+  display: flex;
+  align-items: flex-start;
+}
+.desktop-1__story-stamp-inner .desktop-1__story-stamp-1 {
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.desktop-1__story-stamp-1 {
+  flex-shrink: 0;
+  position: relative;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.desktop-1__frame-37620 {
+  background: #faead8;
+  padding: 32px 48px 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__hero-price-tag {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 111px;
+  height: auto;
+  display: block;
+  z-index: 2;
+  pointer-events: none;
+}
+.desktop-1__centered-vintage-ornament-20-vectorized {
+  flex-shrink: 0;
+  width: 558px;
+  height: 85px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__frame-37577 {
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #532c3d;
+  border-width: 5px;
+  padding: 32px 32px 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__frame-37619 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+/* Wrapper for greeting + destinations: desktop layout unchanged (contents); mobile gets left inset for price tag (Figma 31:29757). */
+.desktop-1__frame-37619-head {
+  display: contents;
+}
+.what-you-get-copy-mobile {
+  display: none;
+}
+.desktop-1__frame-37623 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__side-vintage-37-b-vectorized {
+  flex-shrink: 0;
+  width: 131px;
+  height: 23px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__what-you-get-why-you-get-it {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 28px;
+  line-height: 140%;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+}
+.desktop-1__side-vintage-mirror {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.desktop-1__side-vintage-mirror .desktop-1__side-vintage-37-b-vectorized2 {
+  transform: scaleY(-1) rotate(180deg);
+}
+.desktop-1__side-vintage-37-b-vectorized2 {
+  flex-shrink: 0;
+  width: 131px;
+  height: 23px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__what-you-get-why-you-get-it2 {
+  color: #239d93;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__what-you-get-why-you-get-it3 {
+  color: #532c3d;
+  text-align: center;
+  font-family: var(--font-script);
+  font-size: 50px;
+  line-height: 94%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__what-you-get-why-you-get-it4 {
+  color: #532c3d;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.what-you-get-why-you-get-it-4-span {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+.what-you-get-why-you-get-it-4-span2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.desktop-1__button-primary {
+  background: var(--orange, #e5701c);
+  border-radius: 30px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.22s ease, transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+.desktop-1__container {
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__reserve-now {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__frame-37574 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__travel-underline-wrap {
+  display: flex;
+  height: 9.19px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 176.87px;
+  position: relative;
+}
+.desktop-1__travel-underline-rotate {
+  flex-shrink: 0;
+  transform: rotate(0.64deg);
+}
+.desktop-1__travel-underline-rotate .desktop-1__vector {
+  width: 176.801px;
+  height: 7.223px;
+}
+.desktop-1__what-you-get-why-you-get-it5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--teal, #239d93);
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-1__vector {
+  flex-shrink: 0;
+  width: 176.8px;
+  height: 7.22px;
+  position: relative;
+  overflow: visible;
+  display: block;
+}
+.desktop-1__centered-vintage-ornament-20-vectorized2 {
+  flex-shrink: 0;
+  width: 558px;
+  height: 85px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__centered-vintage-ornament--flipped {
+  transform: matrix(1, 0, 0, -1, 0, 0) scaleY(-1);
+}
+.desktop-1__frame-37585 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  isolation: isolate;
+}
+.desktop-1__frame-37579 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 93px;
+  position: relative;
+  margin-bottom: -45px;
+  z-index: 2;
+  overflow: hidden;
+}
+.desktop-1__frame-37579-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.desktop-1__second-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+.desktop-1__menu-item {
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__how-it-works {
+  color: var(--grey-text, #696566);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-1__second-menu-link {
+  text-decoration: none;
+  text-underline-offset: 5px;
+  color: inherit;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+}
+@media (hover: hover) {
+  .desktop-1__second-menu-link:hover {
+    color: var(--teal, #239d93);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--teal, #239d93);
+  }
+}
+.desktop-1__second-menu-link:active {
+  color: var(--teal, #239d93);
+}
+.desktop-1__second-menu-link:focus-visible {
+  outline: 2px solid var(--orange, #e5701c);
+  outline-offset: 3px;
+}
+#how-it-works,
+#accommodations,
+#owners-testimonials {
+  scroll-margin-top: 96px;
+}
+.desktop-1__frame-37584 {
+  padding: 160px 0px 160px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #faf8f5;
+}
+.desktop-1__frame-37584::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(public/frame-375840.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+.desktop-1__frame-37583 {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1252px;
+  position: relative;
+  z-index: 1;
+}
+.desktop-1__frame-37580-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.desktop-1__frame-37580 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 26px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 560px;
+  height: 100%;
+  min-height: 200px;
+  position: relative;
+  box-shadow: -6px 8px 4.3px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.desktop-1__frame-37580-preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  pointer-events: none;
+}
+.desktop-1__frame-37580-play {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.22s ease, filter 0.22s ease;
+}
+.desktop-1__frame-37580-play:hover {
+  transform: scale(1.06);
+  filter: brightness(1.08);
+}
+.desktop-1__frame-37580-play:focus-visible {
+  outline: 2px solid #e5701c;
+  outline-offset: 4px;
+}
+.desktop-1__play-circle {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 90.4px;
+  height: 90.4px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
+.desktop-1__video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.desktop-1__video-modal[hidden] {
+  display: none !important;
+}
+.desktop-1__video-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  cursor: pointer;
+}
+.desktop-1__video-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: min(960px, 92vw);
+  margin: 0 auto;
+}
+.desktop-1__video-modal-dialog video {
+  width: 100%;
+  height: auto;
+  max-height: min(80vh, 540px);
+  display: block;
+  border-radius: 4px;
+  background: #000;
+}
+.desktop-1__video-modal-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #532c3d;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+  transition: background-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.desktop-1__video-modal-close:hover {
+  background: #f5f5f5;
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+.desktop-1__video-modal-close:focus-visible {
+  outline: 2px solid #ffcb45;
+  outline-offset: 2px;
+}
+.desktop-1__frame-37582 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__frame-37625 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 524px;
+  position: relative;
+}
+.desktop-1__discover-more-of {
+  color: #e5701c;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -22px;
+}
+.desktop-1__layer-1 {
+  flex-shrink: 0;
+  width: 529px;
+  height: 76.31px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__vector2 {
+  width: 52.35%;
+  height: 100.07%;
+  position: absolute;
+  right: 46.92%;
+  left: 0.73%;
+  bottom: 0.04%;
+  top: -0.11%;
+  overflow: visible;
+}
+.desktop-1__vector3 {
+  width: 8.01%;
+  height: 3.12%;
+  position: absolute;
+  right: 70.3%;
+  left: 21.7%;
+  bottom: 46.05%;
+  top: 50.83%;
+  overflow: visible;
+}
+.desktop-1__vector4 {
+  width: 1.12%;
+  height: 2.06%;
+  position: absolute;
+  right: 79.48%;
+  left: 19.4%;
+  bottom: 48.38%;
+  top: 49.56%;
+  overflow: visible;
+}
+.desktop-1__vector5 {
+  width: 2.5%;
+  height: 4.23%;
+  position: absolute;
+  right: 81.55%;
+  left: 15.95%;
+  bottom: 50.09%;
+  top: 45.69%;
+  overflow: visible;
+}
+.desktop-1__vector6 {
+  width: 1.3%;
+  height: 2.73%;
+  position: absolute;
+  right: 82.31%;
+  left: 16.39%;
+  bottom: 43.75%;
+  top: 53.52%;
+  overflow: visible;
+}
+.desktop-1__vector7 {
+  width: 0.96%;
+  height: 2.14%;
+  position: absolute;
+  right: 82.54%;
+  left: 16.5%;
+  bottom: 38.88%;
+  top: 58.98%;
+  overflow: visible;
+}
+.desktop-1__vector8 {
+  width: 1.02%;
+  height: 1.69%;
+  position: absolute;
+  right: 82.54%;
+  left: 16.44%;
+  bottom: 34.17%;
+  top: 64.14%;
+  overflow: visible;
+}
+.desktop-1__vector9 {
+  width: 1.92%;
+  height: 2.96%;
+  position: absolute;
+  right: 82.31%;
+  left: 15.77%;
+  bottom: 26.17%;
+  top: 70.86%;
+  overflow: visible;
+}
+.desktop-1__vector10 {
+  width: 1.73%;
+  height: 2.33%;
+  position: absolute;
+  right: 82.76%;
+  left: 15.51%;
+  bottom: 20.61%;
+  top: 77.06%;
+  overflow: visible;
+}
+.desktop-1__vector11 {
+  width: 1.81%;
+  height: 3.02%;
+  position: absolute;
+  right: 83.03%;
+  left: 15.16%;
+  bottom: 14.86%;
+  top: 82.11%;
+  overflow: visible;
+}
+.desktop-1__vector12 {
+  width: 0.92%;
+  height: 2.1%;
+  position: absolute;
+  right: 78.55%;
+  left: 20.53%;
+  bottom: 9.13%;
+  top: 88.78%;
+  overflow: visible;
+}
+.desktop-1__vector13 {
+  width: 2.01%;
+  height: 3.29%;
+  position: absolute;
+  right: 80.33%;
+  left: 17.66%;
+  bottom: 8.57%;
+  top: 88.13%;
+  overflow: visible;
+}
+.desktop-1__vector14 {
+  width: 3.86%;
+  height: 13.39%;
+  position: absolute;
+  right: 71.84%;
+  left: 24.3%;
+  bottom: 69.17%;
+  top: 17.45%;
+  overflow: visible;
+}
+.desktop-1__vector15 {
+  width: 2.04%;
+  height: 8.41%;
+  position: absolute;
+  right: 72.41%;
+  left: 25.56%;
+  bottom: 67.62%;
+  top: 23.97%;
+  overflow: visible;
+}
+.desktop-1__vector16 {
+  width: 1.52%;
+  height: 6.09%;
+  position: absolute;
+  right: 72.74%;
+  left: 25.73%;
+  bottom: 64.98%;
+  top: 28.93%;
+  overflow: visible;
+}
+.desktop-1__vector17 {
+  width: 0.94%;
+  height: 2.89%;
+  position: absolute;
+  right: 73.54%;
+  left: 25.52%;
+  bottom: 64.53%;
+  top: 32.58%;
+  overflow: visible;
+}
+.desktop-1__vector18 {
+  width: 3.34%;
+  height: 3.44%;
+  position: absolute;
+  right: 79.96%;
+  left: 16.7%;
+  bottom: 64.31%;
+  top: 32.26%;
+  overflow: visible;
+}
+.desktop-1__vector19 {
+  width: 0.64%;
+  height: 1.12%;
+  position: absolute;
+  right: 81.74%;
+  left: 17.62%;
+  bottom: 63.38%;
+  top: 35.49%;
+  overflow: visible;
+}
+.desktop-1__vector20 {
+  width: 6.03%;
+  height: 8.52%;
+  position: absolute;
+  right: 85.93%;
+  left: 8.04%;
+  bottom: 64.01%;
+  top: 27.47%;
+  overflow: visible;
+}
+.desktop-1__vector21 {
+  width: 0.37%;
+  height: 1.37%;
+  position: absolute;
+  right: 92.36%;
+  left: 7.28%;
+  bottom: 64.31%;
+  top: 34.32%;
+  overflow: visible;
+}
+.desktop-1__vector22 {
+  width: 1.99%;
+  height: 1.94%;
+  position: absolute;
+  right: 90.57%;
+  left: 7.44%;
+  bottom: 59.15%;
+  top: 38.91%;
+  overflow: visible;
+}
+.desktop-1__vector23 {
+  width: 1.22%;
+  height: 1.99%;
+  position: absolute;
+  right: 91.17%;
+  left: 7.61%;
+  bottom: 53.52%;
+  top: 44.49%;
+  overflow: visible;
+}
+.desktop-1__vector24 {
+  width: 0.81%;
+  height: 1.95%;
+  position: absolute;
+  right: 91.11%;
+  left: 8.08%;
+  bottom: 48.06%;
+  top: 49.99%;
+  overflow: visible;
+}
+.desktop-1__vector25 {
+  width: 2.5%;
+  height: 2.2%;
+  position: absolute;
+  right: 90.41%;
+  left: 7.1%;
+  bottom: 40.44%;
+  top: 57.36%;
+  overflow: visible;
+}
+.desktop-1__vector26 {
+  width: 0.2%;
+  height: 0.69%;
+  position: absolute;
+  right: 92.38%;
+  left: 7.42%;
+  bottom: 46.79%;
+  top: 52.52%;
+  overflow: visible;
+}
+.desktop-1__vector27 {
+  width: 1.46%;
+  height: 1.94%;
+  position: absolute;
+  right: 91.44%;
+  left: 7.09%;
+  bottom: 33.44%;
+  top: 64.62%;
+  overflow: visible;
+}
+.desktop-1__vector28 {
+  width: 1.22%;
+  height: 2.48%;
+  position: absolute;
+  right: 87.1%;
+  left: 11.68%;
+  bottom: 30.52%;
+  top: 66.99%;
+  overflow: visible;
+}
+.desktop-1__vector29 {
+  width: 3.91%;
+  height: 2.72%;
+  position: absolute;
+  right: 89.07%;
+  left: 7.02%;
+  bottom: 27.53%;
+  top: 69.75%;
+  overflow: visible;
+}
+.desktop-1__vector30 {
+  width: 1.03%;
+  height: 4.88%;
+  position: absolute;
+  right: 95.4%;
+  left: 3.56%;
+  bottom: 67.7%;
+  top: 27.41%;
+  overflow: visible;
+}
+.desktop-1__vector31 {
+  width: 0.83%;
+  height: 3.16%;
+  position: absolute;
+  right: 95.34%;
+  left: 3.82%;
+  bottom: 63.18%;
+  top: 33.66%;
+  overflow: visible;
+}
+.desktop-1__vector32 {
+  width: 0.41%;
+  height: 1.84%;
+  position: absolute;
+  right: 95.5%;
+  left: 4.09%;
+  bottom: 59.11%;
+  top: 39.04%;
+  overflow: visible;
+}
+.desktop-1__vector33 {
+  width: 1.13%;
+  height: 3.58%;
+  position: absolute;
+  right: 95.2%;
+  left: 3.67%;
+  bottom: 51.49%;
+  top: 44.94%;
+  overflow: visible;
+}
+.desktop-1__vector34 {
+  width: 1.13%;
+  height: 2.65%;
+  position: absolute;
+  right: 95.37%;
+  left: 3.5%;
+  bottom: 43.44%;
+  top: 53.9%;
+  overflow: visible;
+}
+.desktop-1__vector35 {
+  width: 1.02%;
+  height: 1.95%;
+  position: absolute;
+  right: 96.4%;
+  left: 2.58%;
+  bottom: 40.86%;
+  top: 57.19%;
+  overflow: visible;
+}
+.desktop-1__group-6013 {
+  width: 50.73%;
+  height: 100.03%;
+  position: absolute;
+  right: 0.49%;
+  left: 48.78%;
+  bottom: -0.04%;
+  top: 0.01%;
+  overflow: visible;
+}
+.desktop-1__exploria-resorts {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 29.579416275024414px;
+  line-height: 60%;
+  font-weight: 700;
+  position: absolute;
+  left: 143.18px;
+  top: 44.58px;
+}
+.desktop-1__frame-37581 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__your-exploria-journey {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__every-owner-has-a-story-we-re-collecting-them {
+  color: #239d93;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__you-built-something-here-trips-that-turned-into-traditions-exploria-s-initiative-to-capture-all-of-that-we-re-collecting-real-owner-experiences-to-share-with-the-broader-community-so-every-family-who-walks-through-these-doors-can-see-the-history-and-heart-behind-the-places-they-love-your-story-is-part-of-what-makes-this-place-worth-coming-back-to-and-we-want-to-make-sure-it-s-told {
+  color: var(--grey-text, #696566);
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 135%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__button-primary2 {
+  background: var(--orange, #e5701c);
+  border-radius: 30px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.22s ease, transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+.desktop-1__button-primary:hover,
+.desktop-1__button-primary2:hover {
+  background: #f07828;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(229, 112, 28, 0.35),
+    0 2px 8px rgba(83, 44, 61, 0.08);
+}
+.desktop-1__frame-37605 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__memories-video-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+}
+.desktop-1__frame-37605::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+.desktop-1__frame-37589 {
+  padding: 48px 0px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.desktop-1__frame-37587 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__exploria-resorts-memories-how-it-works {
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.exploria-resorts-memories-how-it-works-span {
+  color: #ffffff;
+}
+.exploria-resorts-memories-how-it-works-span2 {
+  color: #696566;
+}
+.exploria-resorts-memories-how-it-works-span3 {
+  color: #ffcb45;
+}
+.desktop-1__vector36 {
+  flex-shrink: 0;
+  width: 266.76px;
+  height: 9.33px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__frame-37588 {
+  padding: 0px 80px 0px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__steps-card {
+  background: #faead8;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 15px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  backdrop-filter: blur(30px);
+}
+.desktop-1__frame-37624 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;
+  padding: 32px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__step-illustration {
+  flex-shrink: 0;
+  width: auto;
+  height: 116px;
+  max-width: 160px;
+  position: relative;
+  object-fit: contain;
+}
+.desktop-1__frame-37586 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__step-1 {
+  color: #696566;
+  text-align: center;
+  font-family: var(--font-script);
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 0.5px #696566;
+}
+.desktop-1__select-dates {
+  color: #f16744;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__choose-your-preferred-travel-dates-before-deadline {
+  color: #696566;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0px;
+  top: -0.28px;
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized2 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  top: -0.28px;
+  transform: translate(-83px, 0px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized3 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  bottom: -82.72px;
+  transform: translate(-83px, -83px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized4 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0px;
+  bottom: -82.72px;
+  transform: translate(0px, -83px);
+  overflow: visible;
+}
+.desktop-1__step-2 {
+  color: #696566;
+  text-align: center;
+  font-family: var(--font-script);
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 0.5px #696566;
+}
+.desktop-1__refundable-deposit {
+  color: #f16744;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__place-a-99-refundable-deposit-to-secure-your-spot {
+  color: #696566;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized5 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0px;
+  top: -0.28px;
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized6 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  top: -0.28px;
+  transform: translate(-83px, 0px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized7 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  bottom: -82.72px;
+  transform: translate(-83px, -83px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized8 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0.67px;
+  bottom: -82.72px;
+  transform: translate(0px, -83px);
+  overflow: visible;
+}
+.desktop-1__steps-card2 {
+  background: #faead8;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 15px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  backdrop-filter: blur(30px);
+}
+.desktop-1__frame-376242 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;
+  padding: 32px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__step-3 {
+  color: #696566;
+  text-align: center;
+  font-family: var(--font-script);
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 0.5px #696566;
+}
+.desktop-1__share-your-story {
+  color: #f16744;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__sit-with-us-for-a-60-minute-owner-update-during-your-stay-and-share-property-name-has-meant-to-your-family-in-your-own-words-that-s-it {
+  color: #696566;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized9 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0px;
+  top: -0.28px;
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized10 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  top: -0.28px;
+  transform: translate(-83px, 0px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized11 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  right: -82.67px;
+  bottom: -82.72px;
+  transform: translate(-83px, -83px);
+  overflow: visible;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized12 {
+  flex-shrink: 0;
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 0.33px;
+  bottom: -82.72px;
+  transform: translate(0px, -83px);
+  overflow: visible;
+}
+.desktop-1__frame-37603 {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 32px 48px 56px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.desktop-1__then-the-rest-is-yours {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1__that-s-the-whole-ask-walk-the-grounds-where-you-and-your-children-made-lifelong-memories-sit-by-the-pool-that-held-your-summers-make-a-few-more-memories-while-you-re-here-your-99-deposit-is-refunded-after-your-owner-update-and-story-session-and-what-you-share-with-us-becomes-a-lasting-reflection-of-the-moments-that-matter-most {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.that-s-the-whole-ask-walk-the-grounds-where-you-and-your-children-made-lifelong-memories-sit-by-the-pool-that-held-your-summers-make-a-few-more-memories-while-you-re-here-your-99-deposit-is-refunded-after-your-owner-update-and-story-session-and-what-you-share-with-us-becomes-a-lasting-reflection-of-the-moments-that-matter-most-span {
+  color: #ffcb45;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.that-s-the-whole-ask-walk-the-grounds-where-you-and-your-children-made-lifelong-memories-sit-by-the-pool-that-held-your-summers-make-a-few-more-memories-while-you-re-here-your-99-deposit-is-refunded-after-your-owner-update-and-story-session-and-what-you-share-with-us-becomes-a-lasting-reflection-of-the-moments-that-matter-most-span2 {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", sans-serif;
+}
+.desktop-1__frame-37611 {
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.desktop-1__frame-37611-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 0;
+}
+.desktop-1__frame-37611 .desktop-1__frame-37617 {
+  position: relative;
+  z-index: 1;
+}
+.desktop-1__frame-37617 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__frame-375602 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__where-you-ll-stay {
+  color: #e5701c;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__frame-37606 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__discover-our-exceptional-resorts {
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discover-our-exceptional-resorts-span {
+  color: #696566;
+}
+.discover-our-exceptional-resorts-span2 {
+  color: #239d93;
+}
+.desktop-1__vector37 {
+  flex-shrink: 0;
+  width: 433.02px;
+  height: 9.33px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1__second-menu2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__menu-item2 {
+  background: #e5701c;
+  padding: 6px 24px 6px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  position: relative;
+}
+.desktop-1__how-it-works2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+.desktop-1__menu-item3 {
+  border-style: solid;
+  border-color: #532c3d;
+  border-width: 1px;
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  position: relative;
+}
+.desktop-1__daytona {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-1__how-it-works3 {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-1__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.desktop-1__arrow-button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0) scaleX(-1);
+  aspect-ratio: 1;
+}
+.desktop-1__arrow-back-ios-new {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__card-paginator {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1100px;
+  max-width: 100%;
+  position: relative;
+}
+.resorts-carousel__dots-controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.resorts-carousel__dots-controls .desktop-1__arrow-button,
+.resorts-carousel__dots-controls .desktop-1__arrow-button2 {
+  flex-shrink: 0;
+}
+.resorts-carousel__dots-controls .resorts-carousel__dots {
+  flex-shrink: 0;
+}
+.desktop-1__step3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1100px;
+  position: relative;
+  box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.16),
+    0px 6px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.desktop-1__frame-11 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 550px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.desktop-1__frame-12 {
+  background: #faead8;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 550px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-37626 {
+  border-style: solid;
+  border-color: #532c3d;
+  border-width: 4px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__preview {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-37607 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__summer-bay-orlando {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__by-exploria-resorts {
+  color: #696566;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__stars {
+  display: flex;
+  flex-direction: row;
+  gap: 7.41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__star {
+  flex-shrink: 0;
+  width: 22.24px;
+  height: 21px;
+  position: relative;
+}
+.desktop-1__star2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__frame-37552 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__rectangle-805 {
+  background: var(--orange, #e5701c);
+  flex-shrink: 0;
+  width: 3px;
+  height: 104px;
+  position: relative;
+}
+.desktop-1__discover-the-ultimate-escape-at-summer-bay-orlando-this-luxury-resort-blends-the-excitement-of-orlando-s-world-famous-attractions-with-the-relaxation-of-a-premier-vacation {
+  color: #696566;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 186%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  width: 427px;
+}
+.desktop-1__spanning-400-acres-of-lush-landscapes-and-featuring-a-stunning-64-acre-spring-fed-lake-summer-bay-resort-offers-something-for-everyone-near-all-the-area-attractions {
+  color: #696566;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__step4 {
+  background: #e5701c;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.desktop-1__step5 {
+  background: #afafaf;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.desktop-1__arrow-button2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.desktop-1__arrow-back-ios-new2 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+/* WHERE YOU'LL STAY — tabbed resort carousel (Figma 1:640 + regional slides) */
+.resorts-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+}
+.resorts-carousel__tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.resorts-carousel__tab {
+  box-sizing: border-box;
+  width: 130px;
+  padding: 6px 10px;
+  border: 1px solid #532c3d;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #532c3d;
+  text-transform: uppercase;
+  transition: background-color 0.22s ease, border-color 0.22s ease,
+    color 0.22s ease, transform 0.2s ease;
+}
+.resorts-carousel__tab:not(.is-active):hover {
+  background: rgba(229, 112, 28, 0.12);
+  border-color: #e5701c;
+}
+.resorts-carousel__tab.is-active {
+  background: #e5701c;
+  border-color: #e5701c;
+  color: #ffffff;
+}
+.resorts-carousel__tab.is-active:hover {
+  background: #f07828;
+  border-color: #f07828;
+  transform: translateY(-1px);
+}
+.resorts-carousel__tab:focus-visible {
+  outline: 2px solid #239d93;
+  outline-offset: 2px;
+}
+.resorts-carousel__cards.desktop-1__cards {
+  align-items: center;
+}
+.resorts-carousel__arrow {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.22s ease, filter 0.22s ease, opacity 0.22s ease;
+}
+.desktop-1__arrow-button.resorts-carousel__arrow:hover {
+  transform: matrix(-1, 0, 0, 1, 0, 0) scaleX(-1) scale(1.08);
+  filter: brightness(1.12);
+}
+.desktop-1__arrow-button2.resorts-carousel__arrow:hover {
+  transform: scale(1.08);
+  filter: brightness(1.12);
+}
+.resorts-carousel__arrow:focus-visible {
+  outline: 2px solid #239d93;
+  outline-offset: 2px;
+}
+.resorts-carousel__mount {
+  width: 1100px;
+  min-height: 550px;
+}
+.resorts-carousel__dots {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.resorts-carousel__dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #afafaf;
+  cursor: pointer;
+  transition: transform 0.22s ease, background-color 0.22s ease,
+    filter 0.22s ease;
+}
+.resorts-carousel__dot:hover {
+  transform: scale(1.2);
+}
+.resorts-carousel__dot:hover:not(.is-active) {
+  background: #8f8f8f;
+}
+.resorts-carousel__dot.is-active:hover {
+  filter: brightness(1.12);
+}
+.resorts-carousel__dot.is-active {
+  background: #e5701c;
+}
+.resorts-carousel__step {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 1100px;
+  flex-shrink: 0;
+  box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.16),
+    0px 6px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.resorts-carousel__photo-wrap {
+  flex-shrink: 0;
+  width: 550px;
+  min-height: 550px;
+  position: relative;
+  overflow: hidden;
+  align-self: stretch;
+}
+.resorts-carousel__photo-wrap--framed {
+  border: 18px solid #ffffff;
+  box-sizing: border-box;
+}
+.resorts-carousel__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.resorts-carousel__copy-panel {
+  flex-shrink: 0;
+  width: 550px;
+  min-height: 550px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.resorts-carousel__copy-panel--cream {
+  background: #faead8;
+  padding: 32px;
+}
+.resorts-carousel__copy-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 0;
+}
+.resorts-carousel__copy-inner--bordered {
+  border: 4px solid #532c3d;
+  padding: 32px;
+  box-sizing: border-box;
+}
+.resorts-carousel__preview {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  min-height: 0;
+  overflow: hidden;
+}
+.resorts-carousel__preview--spaced {
+  gap: 24px;
+}
+.resorts-carousel__headline-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.resorts-carousel__title {
+  color: #532c3d;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.resorts-carousel__subtitle {
+  color: #696566;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.resorts-carousel__stars {
+  display: flex;
+  flex-direction: row;
+  gap: 7.41px;
+  align-items: center;
+}
+.resorts-carousel__star {
+  width: 22.24px;
+  height: 21px;
+  position: relative;
+  flex-shrink: 0;
+}
+.resorts-carousel__star img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.resorts-carousel__lead-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  width: 100%;
+}
+.resorts-carousel__accent-bar {
+  flex-shrink: 0;
+  width: 3px;
+  min-height: 104px;
+  align-self: stretch;
+}
+.resorts-carousel__accent-bar--orange {
+  background: #e5701c;
+}
+.resorts-carousel__lead {
+  flex: 1;
+  margin: 0;
+  color: #696566;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  font-weight: 700;
+  max-width: 427px;
+}
+.resorts-carousel__body {
+  margin: 0;
+  color: #696566;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 100%;
+}
+.resorts-carousel__body--acc {
+  line-height: 1.5;
+}
+.resorts-carousel__brand-logo {
+  display: block;
+  height: 41px;
+  width: auto;
+  max-width: 133px;
+  object-fit: contain;
+}
+.resorts-carousel__kicker {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 400;
+  color: #239d93;
+}
+.resorts-carousel__kicker--orange {
+  color: #e5701c;
+  font-size: 36px;
+}
+.resorts-carousel__unit-title {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #696566;
+}
+.resorts-carousel__bonus-sub {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #696566;
+}
+.resorts-carousel__amenities {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(128px, 1fr));
+  gap: 12px 16px;
+  width: 100%;
+}
+.resorts-carousel__amenity {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 11px;
+  color: #000000;
+}
+.resorts-carousel__things-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.resorts-carousel__thing {
+  margin: 0;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #696566;
+}
+.resorts-carousel__thing strong {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.resorts-carousel__cta {
+  margin-top: auto;
+  width: 100%;
+  background: var(--orange, #e5701c);
+  border-radius: 30px;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+.resorts-carousel__cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+}
+.resorts-carousel__cta-text {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.desktop-1__frame-37616 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 160px 0px 160px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__frame-37616.owners-testimonials {
+  background: transparent;
+  isolation: isolate;
+  overflow: hidden;
+}
+.owners-testimonials__bg-stack {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.owners-testimonials__bg-pane {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.55s ease;
+  pointer-events: none;
+}
+.owners-testimonials__bg-pane.is-active {
+  opacity: 1;
+}
+.owners-testimonials__bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.owners-testimonials__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+.owners-testimonials__topper,
+.owners-testimonials__carousel-column {
+  position: relative;
+  z-index: 2;
+}
+.owners-testimonials__carousel-row {
+  align-items: center;
+}
+.owners-testimonials__animate {
+  transition: opacity 0.48s ease, transform 0.48s ease;
+}
+.owners-testimonials__animate.is-hiding {
+  opacity: 0;
+  transform: translateY(12px);
+}
+.owners-testimonials__animate.is-showing {
+  opacity: 1;
+  transform: translateY(0);
+}
+.owners-testimonials__card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  flex: 1;
+}
+.owners-testimonials__quote {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+  margin: 0;
+  align-self: stretch;
+}
+.owners-testimonials__arrow {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.22s ease;
+}
+.owners-testimonials__arrow img {
+  filter: brightness(0) invert(1);
+  display: block;
+  transition: filter 0.22s ease;
+}
+.owners-testimonials__arrow:hover img {
+  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
+}
+.owners-testimonials__arrow--next:hover {
+  transform: scale(1.08);
+}
+.owners-testimonials__arrow--prev:hover {
+  transform: matrix(-1, 0, 0, 1, 0, 0) scaleX(-1) scale(1.08);
+}
+.owners-testimonials__arrow:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+.owners-testimonials__dots {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.owners-testimonials__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid #ffffff;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.22s ease, transform 0.22s ease;
+}
+.owners-testimonials__dot.is-active {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.owners-testimonials__dot:hover:not(.is-active) {
+  background: rgba(255, 255, 255, 0.35);
+}
+.owners-testimonials__dot:focus-visible {
+  outline: 2px solid #ffcb45;
+  outline-offset: 3px;
+}
+.owners-testimonials:focus-visible {
+  outline: none;
+}
+.owners-testimonials:focus-visible .owners-testimonials__carousel-column {
+  outline: 2px solid rgba(255, 203, 69, 0.8);
+  outline-offset: 8px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .owners-testimonials__bg-pane {
+    transition-duration: 0.01ms;
+  }
+  .owners-testimonials__animate {
+    transition-duration: 0.01ms;
+  }
+  .owners-testimonials__arrow,
+  .owners-testimonials__dot {
+    transition-duration: 0.01ms;
+  }
+}
+.desktop-1__topper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  max-width: 568px;
+  position: relative;
+}
+.desktop-1__what-our-owners-are-saying {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 80px;
+  line-height: 93%;
+  letter-spacing: -0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__what-you-get-why-you-get-it9 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__frame-37615 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__frame-37630 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__arrow-button3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  transform-origin: 0 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0) scaleX(-1);
+}
+.desktop-1__arrow-back-ios-new3 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__steps-card3 {
+  background: #faead8;
+  border-style: solid;
+  border-color: #faead8;
+  border-width: 4px;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 480px;
+  height: 505px;
+  position: relative;
+  backdrop-filter: blur(30px);
+}
+.desktop-1__frame-376243 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;
+  padding: 24px 24px 48px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__frame-37631 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__frame-376182 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__summer-bay-orlando2 {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 115%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__by-exploria-resorts2 {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 115%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__stars2 {
+  display: flex;
+  flex-direction: row;
+  gap: 7.41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 26px;
+  position: relative;
+}
+.desktop-1__star7 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star8 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star9 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star10 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__star11 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.desktop-1__love-this-place-we-do-our-family-reunions-here-each-year-and-can-t-be-any-happier-with-everything-they-have-to-offer {
+  color: #532c3d;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-1__wayne-m {
+  color: #532c3d;
+  text-align: right;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized13 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: -0.44px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized14 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: -60px;
+  top: -0.44px;
+  transform: translate(-60px, 0px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized15 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: -60px;
+  bottom: -59.56px;
+  transform: translate(-60px, -60px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__corner-vignette-vintage-23-a-vectorized16 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  bottom: -59.56px;
+  transform: translate(0px, -60px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__story-stamp-12 {
+  flex-shrink: 0;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: -90px;
+  top: 351px;
+  box-shadow: 0px 2px 2.7px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-10.915deg) scale(1, 1);
+  object-fit: contain;
+}
+.desktop-1__arrow-button4 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1__arrow-back-ios-new4 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.desktop-1__frame-37613 {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 800px;
+  position: relative;
+}
+.desktop-1__memories-collage {
+  overflow: hidden;
+}
+.desktop-1__memories-collage__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 0;
+}
+.desktop-1__memories-collage .desktop-1__frame-37634 {
+  position: relative;
+  z-index: 1;
+}
+.desktop-1__memories-collage .desktop-1__frame-122,
+.desktop-1__memories-collage .desktop-1__frame-113,
+.desktop-1__memories-collage .desktop-1__frame-114,
+.desktop-1__memories-collage .desktop-1__frame-13 {
+  background: rgba(0, 0, 0, 0.4);
+}
+.desktop-1__memories-collage__photo-frame {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  align-self: stretch;
+  border: 18px solid #ffffff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.desktop-1__memories-collage__fill {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.desktop-1__memories-collage__stack {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.desktop-1__memories-collage__stack img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.desktop-1__frame-37634 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__frame-37636 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__frame-122 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-112 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.desktop-1__frame-113 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 455px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-37633 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__frame-114 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-13 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 337px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__frame-376342 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.desktop-1__footer-lp {
+  border-style: solid;
+  border-color: var(--grey-10, #f7f7f7);
+  border-width: 1px 0px 0px 0px;
+  padding: 48px 64px;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-1__footer-lp__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.desktop-1__footer-lp__bg-solid {
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+}
+.desktop-1__footer-lp__bg-texture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.desktop-1__footer-lp__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.desktop-1__logo2-wrap {
+  flex-shrink: 0;
+  width: 160px;
+  height: 47px;
+  position: relative;
+}
+.desktop-1__logo2 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.desktop-1__the-vacation-package-being-offered-is-provided-by-club-exploria-llc-the-developer-and-seller-of-club-exploria-a-multi-site-timeshare-plan-2026-club-exploria-llc-all-rights-reserved {
+  color: #666666;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 0;
+}
+.desktop-1__frame-376312 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+}
+.desktop-1__frame-37632 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.desktop-1__frame-37632 p {
+  margin: 0;
+}
+.desktop-1__this-advertising-material-is-being-used-for-the-purpose-of-soliciting-sales-of-a-vacation-ownership-plan {
+  color: #666666;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__the-complete-offering-terms-are-contained-in-a-public-offering-plan-available-from-the-sponsor {
+  color: #666666;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-1__terms-conditions-privacy-policy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 0.35em;
+  row-gap: 0.25em;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+}
+.terms-conditions-privacy-policy-span {
+  color: var(--link, #000dff);
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.terms-conditions-privacy-policy-span3 {
+  color: var(--grey-text, #696566);
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive layout (mobile references: Figma Exploria Campaign 6 mobile frames)
+   Desktop rules stay unchanged; overrides are scoped to max-width breakpoints.
+   -------------------------------------------------------------------------- */
+
+html {
+  overflow-x: clip;
+}
+@supports not (overflow: clip) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  #how-it-works,
+  #accommodations,
+  #owners-testimonials {
+    scroll-margin-top: 72px;
+  }
+
+  .desktop-1__frame-37583 {
+    width: 100%;
+    max-width: 1252px;
+    padding: 0 clamp(16px, 4vw, 32px);
+    box-sizing: border-box;
+    gap: clamp(32px, 5vw, 64px);
+  }
+
+  .desktop-1__frame-375602 {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  .desktop-1__where-you-ll-stay,
+  .desktop-1__frame-37606 {
+    align-items: center;
+    align-self: center;
+  }
+
+  .desktop-1__discover-our-exceptional-resorts {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .desktop-1__vector37 {
+    width: min(433px, 85vw);
+    height: auto;
+  }
+
+  .resorts-carousel__mount {
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .resorts-carousel__step {
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .desktop-1__card-paginator {
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .resorts-carousel__lead {
+    max-width: none;
+  }
+
+  .desktop-1__frame-37616 {
+    padding: clamp(64px, 12vw, 160px) clamp(16px, 4vw, 32px);
+    gap: clamp(24px, 4vw, 32px);
+  }
+
+  .desktop-1__topper2 {
+    max-width: none;
+    align-items: center;
+    text-align: center;
+  }
+
+  .desktop-1__what-our-owners-are-saying,
+  .desktop-1__what-you-get-why-you-get-it9 {
+    text-align: center;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .desktop-1__topper {
+    padding: 12px clamp(14px, 4vw, 24px);
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+  }
+
+  .desktop-1__frame-37560 {
+    gap: 12px;
+    flex: 0 0 auto;
+    order: 1;
+  }
+
+  .desktop-1__share-your-exploria-resorts-memories {
+    flex: 1 1 220px;
+    min-width: 0;
+    font-size: clamp(14px, 3.5vw, 21px);
+    line-height: 1.2;
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .desktop-1__widget {
+    order: 2;
+  }
+
+  .desktop-1__frame-37618 {
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+    align-self: stretch;
+    width: 100%;
+  }
+
+  .desktop-1__frame-37621.hero-carousel {
+    flex: none;
+    width: 100%;
+    /* Figma mobile hero stack (~400px artboard) */
+    min-height: clamp(360px, 92vw, 440px);
+    max-height: none;
+  }
+
+  .hero-carousel__foreground {
+    padding: 0 clamp(16px, 5vw, 28px);
+    justify-content: flex-end;
+    padding-bottom: 16px;
+  }
+
+  .hero-carousel__slides-main {
+    width: min(664px, 100%);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 664 / 631;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__couple-photo-wrap {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+  }
+
+  .hero-carousel__slide-main .desktop-1__story-stamp-wrap {
+    left: clamp(6px, 3vw, 32px);
+    top: clamp(4px, 2vw, 17px);
+    width: auto;
+    height: auto;
+    max-height: 120px;
+  }
+
+  .desktop-1__story-stamp-inner .desktop-1__story-stamp-1 {
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Offer stack — Figma mobile Exploria-Owner-Marketing_Campaign-6 node 31:29757 */
+  .desktop-1__frame-37620 {
+    width: 100%;
+    flex: none;
+    padding: 16px 12px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .desktop-1__hero-price-tag {
+    width: clamp(72px, 23vw, 95px);
+    height: auto;
+    left: 12px;
+    top: calc(
+      16px + ((100% - 24px) * 60 / 366) - 14px
+    );
+    z-index: 3;
+  }
+
+  .desktop-1__centered-vintage-ornament-20-vectorized {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    aspect-ratio: 366 / 60;
+    object-fit: contain;
+  }
+
+  .desktop-1__centered-vintage-ornament-20-vectorized2 {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    aspect-ratio: 558 / 85;
+    object-fit: contain;
+  }
+
+  .desktop-1__frame-37577 {
+    border-radius: 20px;
+    padding: 16px;
+    gap: 32px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .desktop-1__frame-37619-head {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+    padding-left: clamp(72px, 29vw, 117px);
+    box-sizing: border-box;
+  }
+
+  .desktop-1__frame-37623
+    > .desktop-1__side-vintage-37-b-vectorized:first-of-type {
+    display: none;
+  }
+
+  .desktop-1__frame-37623 {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .desktop-1__what-you-get-why-you-get-it {
+    font-size: 20px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  .desktop-1__side-vintage-mirror {
+    flex: 1 1 0;
+    min-width: 0;
+    justify-content: center;
+  }
+
+  .desktop-1__side-vintage-mirror .desktop-1__side-vintage-37-b-vectorized2 {
+    width: min(131px, 28vw);
+    height: auto;
+  }
+
+  .desktop-1__what-you-get-why-you-get-it2 {
+    font-size: 20px;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+
+  .desktop-1__what-you-get-why-you-get-it3 {
+    font-size: 40px;
+    line-height: 0.94;
+    width: 100%;
+    max-width: none;
+  }
+
+  .what-you-get-copy-desktop {
+    display: none;
+  }
+
+  .what-you-get-copy-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .desktop-1__what-you-get-why-you-get-it4 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .desktop-1__button-primary {
+    max-width: none;
+    width: 100%;
+  }
+
+  .desktop-1__frame-37574 {
+    align-self: stretch;
+    width: 100%;
+    align-items: center;
+  }
+
+  .desktop-1__what-you-get-why-you-get-it5 {
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+  }
+
+  .desktop-1__travel-underline-wrap {
+    width: 128.44px;
+  }
+
+  .desktop-1__travel-underline-rotate .desktop-1__vector {
+    width: 128.366px;
+    height: 7.223px;
+  }
+
+  .desktop-1__frame-37583 {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .desktop-1__frame-37580-wrap {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Figma mobile video frame: full-width, ~380px tall, heavy white border */
+  .desktop-1__frame-37580 {
+    width: 100%;
+    max-width: none;
+    height: 380px;
+    min-height: 280px;
+    aspect-ratio: unset;
+    align-self: stretch;
+  }
+
+  .desktop-1__frame-37582 {
+    align-items: center;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .desktop-1__frame-37625 {
+    width: 100%;
+    max-width: 524px;
+  }
+
+  .desktop-1__layer-1 {
+    width: min(529px, 100%);
+    height: auto;
+    aspect-ratio: 529 / 76.31;
+  }
+
+  .desktop-1__you-built-something-here-trips-that-turned-into-traditions-exploria-s-initiative-to-capture-all-of-that-we-re-collecting-real-owner-experiences-to-share-with-the-broader-community-so-every-family-who-walks-through-these-doors-can-see-the-history-and-heart-behind-the-places-they-love-your-story-is-part-of-what-makes-this-place-worth-coming-back-to-and-we-want-to-make-sure-it-s-told {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .desktop-1__your-exploria-journey,
+  .desktop-1__every-owner-has-a-story-we-re-collecting-them {
+    text-align: center;
+    align-self: center;
+  }
+
+  .desktop-1__button-primary2 {
+    align-self: center;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .desktop-1__frame-37579 {
+    margin-bottom: -10px;
+  }
+
+  .desktop-1__second-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__how-it-works {
+    font-size: clamp(12px, 3.2vw, 16px);
+  }
+
+  /* Figma Frame 37585 mobile: pt 48 pb 32, section gutter 16px */
+  .desktop-1__frame-37584 {
+    padding: 48px 0 32px;
+  }
+
+  .desktop-1__discover-more-of {
+    font-size: 16px;
+  }
+
+  .desktop-1__your-exploria-journey {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .desktop-1__every-owner-has-a-story-we-re-collecting-them {
+    font-size: 16px;
+    line-height: 1.35;
+  }
+
+  .desktop-1__frame-37605 {
+    min-height: min(520px, 120vw);
+  }
+
+  .desktop-1__frame-37589 {
+    padding: clamp(32px, 8vw, 48px) clamp(12px, 4vw, 24px);
+  }
+
+  .desktop-1__exploria-resorts-memories-how-it-works {
+    font-size: clamp(20px, 5vw, 32px);
+    text-align: center;
+    align-self: center;
+  }
+
+  .desktop-1__frame-37587 {
+    align-items: center;
+    align-self: center;
+  }
+
+  .desktop-1__vector36 {
+    width: min(267px, 70vw);
+    height: auto;
+  }
+
+  .desktop-1__frame-37588 {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 clamp(12px, 4vw, 24px);
+    gap: clamp(20px, 4vw, 32px);
+  }
+
+  .desktop-1__steps-card,
+  .desktop-1__steps-card2 {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    flex: none;
+  }
+
+  .desktop-1__frame-37603 {
+    padding: clamp(24px, 6vw, 32px) clamp(16px, 4vw, 48px)
+      clamp(40px, 10vw, 56px);
+  }
+
+  .desktop-1__then-the-rest-is-yours {
+    font-size: clamp(22px, 5vw, 32px);
+  }
+
+  .desktop-1__that-s-the-whole-ask-walk-the-grounds-where-you-and-your-children-made-lifelong-memories-sit-by-the-pool-that-held-your-summers-make-a-few-more-memories-while-you-re-here-your-99-deposit-is-refunded-after-your-owner-update-and-story-session-and-what-you-share-with-us-becomes-a-lasting-reflection-of-the-moments-that-matter-most {
+    font-size: clamp(16px, 3.8vw, 20px);
+  }
+
+  .desktop-1__frame-37611 {
+    padding: clamp(48px, 10vw, 80px) clamp(12px, 4vw, 24px);
+  }
+
+  .desktop-1__frame-37617 {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__frame-37615 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .resorts-carousel__tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 16px;
+  }
+
+  .desktop-1__cards {
+    flex-direction: column;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .resorts-carousel__dots-controls {
+    gap: 16px;
+    padding: 0 8px;
+  }
+
+  .resorts-carousel__mount {
+    min-height: 0;
+  }
+
+  .resorts-carousel__step {
+    flex-direction: column;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .resorts-carousel__photo-wrap {
+    width: 100%;
+    min-height: 240px;
+    aspect-ratio: 4 / 3;
+  }
+
+  .resorts-carousel__copy-panel {
+    width: 100%;
+    min-height: 280px;
+    aspect-ratio: unset;
+    flex: 1 1 auto;
+  }
+
+  .resorts-carousel__photo-wrap--framed {
+    border-width: clamp(10px, 3vw, 18px);
+  }
+
+  .resorts-carousel__copy-panel--cream {
+    padding: clamp(20px, 5vw, 32px);
+  }
+
+  .resorts-carousel__copy-inner--bordered {
+    padding: clamp(16px, 4vw, 32px);
+  }
+
+  .resorts-carousel__title {
+    font-size: clamp(22px, 5.5vw, 32px);
+  }
+
+  .resorts-carousel__subtitle {
+    font-size: clamp(18px, 4vw, 24px);
+  }
+
+  .resorts-carousel__kicker {
+    font-size: clamp(22px, 5vw, 32px);
+  }
+
+  .desktop-1__frame-37616 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desktop-1__what-our-owners-are-saying {
+    font-size: clamp(36px, 12vw, 80px);
+  }
+
+  .desktop-1__frame-37630 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      "card card card"
+      "prev . next";
+    gap: 16px 12px;
+    width: 100%;
+    max-width: min(480px, 100%);
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .desktop-1__steps-card3 {
+    grid-area: card;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    min-height: 0;
+  }
+
+  .desktop-1__arrow-button3 {
+    grid-area: prev;
+    justify-self: center;
+  }
+
+  .desktop-1__arrow-button4 {
+    grid-area: next;
+    justify-self: center;
+  }
+
+  .desktop-1__story-stamp-12 {
+    left: clamp(-48px, -8vw, -90px);
+    top: auto;
+    bottom: clamp(-40px, -8vw, -59.56px);
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Owners testimonials — Figma mobile frame 1:735 */
+  .desktop-1__frame-37616.owners-testimonials {
+    align-items: stretch;
+    padding: 32px 16px;
+    gap: 64px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__topper2 {
+    align-items: flex-start;
+    text-align: left;
+    align-self: flex-start;
+    max-width: 568px;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__what-you-get-why-you-get-it9 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__what-our-owners-are-saying {
+    font-size: clamp(32px, 12.8vw, 50px);
+    line-height: 0.8;
+    letter-spacing: -5px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__what-you-get-why-you-get-it9 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__frame-37615 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "card card card"
+      "prev dots next";
+    row-gap: 32px;
+    column-gap: 32px;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__frame-37630 {
+    display: contents;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__steps-card3 {
+    max-width: none;
+    min-height: 429px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__frame-376243 {
+    padding: 80px 16px 16px;
+    gap: 24px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .owners-testimonials__card-body {
+    gap: 24px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__arrow-back-ios-new3,
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__arrow-back-ios-new4 {
+    width: 32px;
+    height: 32px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .owners-testimonials__dots {
+    grid-area: dots;
+    justify-self: center;
+    gap: 12px;
+  }
+
+  .desktop-1__frame-37616.owners-testimonials .desktop-1__story-stamp-12 {
+    left: 50%;
+    right: auto;
+    top: -41px;
+    bottom: auto;
+    transform: translateX(-50%);
+    transform-origin: center top;
+    max-height: none;
+    width: min(172px, 44vw);
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0px 2px 2.7px rgba(0, 0, 0, 0.25);
+  }
+
+  /*
+   * Memories collage — Figma mobile 39:44952 (390px): top row 2×200px,
+   * middle column 678px (flex / 273 / flex), bottom row 2×200px.
+   */
+  .desktop-1__memories-collage.desktop-1__frame-37613 {
+    height: auto;
+    min-height: 0;
+    padding: 20px 16px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37634 {
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37636 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    width: 100%;
+    flex: none;
+    min-height: 0;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37636 > .desktop-1__frame-122,
+  .desktop-1__memories-collage .desktop-1__frame-37636 > .desktop-1__frame-113 {
+    flex: 1 1 0;
+    width: auto;
+    height: 100%;
+    min-height: 0;
+    min-width: 0;
+    aspect-ratio: unset;
+    padding: 16px;
+    border-width: 10px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37633 {
+    display: flex;
+    flex-direction: column;
+    height: 678px;
+    width: 100%;
+    flex: none;
+    min-height: 0;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37633 > .desktop-1__frame-114 {
+    flex: 1 1 0;
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    aspect-ratio: unset;
+    padding: 20px;
+    border-width: 10px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37633 > .desktop-1__frame-13 {
+    flex: 0 0 273px;
+    height: 273px;
+    width: 100%;
+    aspect-ratio: unset;
+    padding: 20px;
+    border-width: 10px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37633 > .desktop-1__frame-122 {
+    flex: 1 1 0;
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    aspect-ratio: unset;
+    padding: 20px;
+    border-width: 10px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-376342 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    width: 100%;
+    flex: none;
+    min-height: 0;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-376342 > .desktop-1__frame-113,
+  .desktop-1__memories-collage .desktop-1__frame-376342 > .desktop-1__frame-122 {
+    flex: 1 1 0;
+    width: auto;
+    height: 100%;
+    min-height: 0;
+    min-width: 0;
+    aspect-ratio: unset;
+    padding: 20px;
+    border-width: 10px;
+    box-sizing: border-box;
+  }
+
+  .desktop-1__memories-collage .desktop-1__memories-collage__photo-frame {
+    border-width: 10px;
+  }
+
+  .desktop-1__footer-lp {
+    padding: clamp(32px, 8vw, 48px) clamp(16px, 5vw, 32px);
+  }
+}
+
+@media (max-width: 900px) and (max-height: 740px) {
+  .desktop-1__memories-collage .desktop-1__frame-37633 {
+    height: auto;
+    min-height: 480px;
+  }
+
+  .desktop-1__memories-collage .desktop-1__frame-37633 > .desktop-1__frame-13 {
+    flex: 0 1 auto;
+    min-height: 200px;
+    height: auto;
+    max-height: 273px;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktop-1__widget {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .desktop-1___321-378-1664 {
+    font-size: clamp(16px, 4.2vw, 20px);
+  }
+
+  .resorts-carousel__tab {
+    flex: 1 1 calc(33.333% - 12px);
+    min-width: 0;
+    width: auto;
+    max-width: 140px;
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+
+  .desktop-1__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .desktop-1__steps-card,
+  .desktop-1__steps-card2 {
+    border-width: 8px;
+    padding: clamp(20px, 5vw, 32px);
+  }
+
+  .desktop-1__frame-37624,
+  .desktop-1__frame-376242 {
+    padding: clamp(16px, 4vw, 32px) clamp(12px, 3vw, 24px);
+  }
+}
