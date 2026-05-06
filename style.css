@@ -349,7 +349,7 @@
   top: 17px;
   width: auto;
   height: auto;
-  max-height: 120px;
+  max-height: 170px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -358,12 +358,12 @@
 .desktop-1__story-stamp-inner {
   flex-shrink: 0;
   transform: rotate(-18.51deg);
-  max-height: 120px;
+  max-height: 170px;
   display: flex;
   align-items: flex-start;
 }
 .desktop-1__story-stamp-inner .desktop-1__story-stamp-1 {
-  max-height: 120px;
+  max-height: 170px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -372,7 +372,7 @@
 .desktop-1__story-stamp-1 {
   flex-shrink: 0;
   position: relative;
-  max-height: 120px;
+  max-height: 170px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -3553,11 +3553,19 @@ html {
     max-height: 120px;
   }
 
+  .desktop-1__story-stamp-inner {
+    max-height: 120px;
+  }
+
   .desktop-1__story-stamp-inner .desktop-1__story-stamp-1 {
     max-height: 120px;
     width: auto;
     height: auto;
     object-fit: contain;
+  }
+
+  .desktop-1__story-stamp-1 {
+    max-height: 120px;
   }
 
   /* Offer stack — Figma mobile Exploria-Owner-Marketing_Campaign-6 node 31:29757 */
