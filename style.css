@@ -2281,10 +2281,15 @@
 .resorts-carousel__tab {
   box-sizing: border-box;
   width: 130px;
-  padding: 6px 10px;
+  padding: 8px 16px;
   border: 1px solid #532c3d;
+  border-radius: 9999px;
   background: transparent;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-family: "Poppins-Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -4217,7 +4222,8 @@ html {
     width: auto;
     max-width: 140px;
     font-size: 13px;
-    padding: 6px 8px;
+    padding: 8px 12px;
+    border-radius: 9999px;
   }
 
   .desktop-1__container {

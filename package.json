@@ -1,0 +1,9 @@
+{
+  "name": "exploria-camp6-may6",
+  "private": true,
+  "description": "Exploria Campaign 6 static landing page (Vercel: Framework Preset stays Other if detected; build is a no-op).",
+  "scripts": {
+    "build": "node -e \"process.exit(0)\"",
+    "dev": "npx --yes serve . -p 3000"
+  }
+}
