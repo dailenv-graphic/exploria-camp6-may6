@@ -3046,6 +3046,9 @@
   transform: rotate(-10.915deg) scale(1, 1);
   object-fit: contain;
 }
+.desktop-1__frame-37616.owners-testimonials .desktop-1__story-stamp-12 {
+  max-height: 200px;
+}
 .desktop-1__arrow-button4 {
   display: flex;
   flex-direction: row;
