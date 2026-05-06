@@ -96,7 +96,7 @@
         kicker: "Bonus Gift",
         sub: "Bonus $100 Resort Credit or $100 Ticket Credit",
         body:
-          "Your stay includes a $100 Resort Credit or $100 Ticket Credit — your choice. Put it toward resort amenities or local attractions along the coast. With Daytona's beaches and energy right outside your door, your bonus credit stretches your vacation further than you'd expect. From sunrise on the sand to evenings spent together, every detail is designed to become a memory worth keeping.",
+          "Your stay includes a $100 Resort Credit or $100 Ticket Credit, your choice. Put it toward resort amenities or local attractions along the coast. With Daytona's beaches and energy right outside your door, your bonus credit stretches your vacation further than you'd expect. From sunrise on the sand to evenings spent together, every detail is designed to become a memory worth keeping.",
       },
       {
         layout: "things",
@@ -153,9 +153,10 @@
         layout: "bonus",
         image: "public/resorts-carousel/poconos-2.png",
         kicker: "Bonus Gift",
+        kickerTone: "orange",
         sub: "Bonus 4 Waterpark or Zipline Tickets",
         body:
-          "Your stay includes 4 Waterpark Passes or 4 Zipline Tickets — your choice. More adventure is built right into your getaway. Nestled in the heart of the Pocono Mountains, your bonus tickets turn a great escape into an unforgettable one. Whether you're splashing through the waterpark or soaring above the treetops, these are the moments your family will never forget.",
+          "Your stay includes 4 Waterpark Passes or 4 Zipline Tickets, your choice. More adventure is built right into your getaway. Nestled in the heart of the Pocono Mountains, your bonus tickets turn a great escape into an unforgettable one. Whether you're splashing through the waterpark or soaring above the treetops, these are the moments your family will never forget.",
       },
       {
         layout: "things",
