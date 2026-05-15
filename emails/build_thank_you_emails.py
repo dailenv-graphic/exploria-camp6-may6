@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""Generate standalone thank-you transactional emails (Orlando, Daytona, Poconos).
+"""Generate a single generic thank-you email (Orlando-based layout / hero).
 
+Only these merge tags are dynamic:
+- %Summer Bay Orlando% — resort / location wording for Includes
+- %Dynamic Bonus from location offer% — bonus gift copy
 Icons: Material Design filled 24dp paths (same as @mui/icons-material / Google Material Icons).
 Regenerate: python3 emails/build_thank_you_emails.py
 """
@@ -105,7 +108,7 @@ def summary_row(icon_html: str, label: str, value_html: str) -> str:
                 </tr>"""
 
 
-def build_html(title: str, hero_src: str, includes_text: str, bonus_text: str) -> str:
+def build_html(title: str, hero_src: str, includes_text: str, bonus_merge_tag: str) -> str:
     rows = []
     rows.append(summary_row(icon_assignment_turned_in(), "Receipt #", "&nbsp;1234567890"))
     rows.append(summary_row(icon_king_bed(), "Unit type:", "&nbsp;Standard"))
@@ -143,7 +146,7 @@ def build_html(title: str, hero_src: str, includes_text: str, bonus_text: str) -
         summary_row(
             icon_redeem(),
             "Bonus Gift Details:",
-            f"&nbsp;{bonus_text}",
+            f"&nbsp;{bonus_merge_tag}",
         )
     )
     summary_inner = "\n".join(rows)
@@ -371,36 +374,19 @@ def build_html(title: str, hero_src: str, includes_text: str, bonus_text: str) -
 """
 
 
-VARIANTS = [
-    (
-        "thank-you-orlando.html",
-        "Exploria Thank You — Orlando",
-        "../public/ty-emails/orlando-hero.png",
-        "Complimentary Owners Getaway at Summer Bay Orlando by Exploria Resorts",
-        "Your Orlando getaway includes your choice of a $100 Resort Credit or a $100 Ticket Credit at Summer Bay Orlando by Exploria Resorts.",
-    ),
-    (
-        "thank-you-daytona.html",
-        "Exploria Thank You — Daytona Beach",
-        "../public/ty-emails/Daytona%20header%201.png",
-        "Complimentary Owners Getaway at Grand Seas by Exploria Resorts, Daytona Beach",
-        "Your Daytona Beach getaway includes your choice of a $100 Resort Credit or a $100 Ticket Credit at Grand Seas by Exploria Resorts.",
-    ),
-    (
-        "thank-you-poconos.html",
-        "Exploria Thank You — Poconos",
-        "../public/ty-emails/poconos%20header%201.png",
-        "Complimentary Owners Getaway at Poconos Mountain Villas by Exploria Resorts",
-        "Your Poconos getaway includes your choice of four (4) Indoor Waterpark Passes or four (4) Zipline Tickets at Poconos Mountain Villas by Exploria Resorts.",
-    ),
-]
+OUTPUT_FILE = "thank-you.html"
+PAGE_TITLE = "Exploria Resorts — Thank You"
+HERO_SRC = "../public/ty-emails/orlando-hero.png"
+# Merge tag replaced per guest / location selection (same token name kept for tooling).
+INCLUDES_LOCATION_MERGE_TAG = "%Summer Bay Orlando%"
+INCLUDES_TEXT = f"Complimentary Owners Getaway at {INCLUDES_LOCATION_MERGE_TAG} by Exploria Resorts"
+BONUS_MERGE_TAG = "%Dynamic Bonus from location offer%"
 
 
 def main() -> None:
-    for filename, title, hero, includes, bonus in VARIANTS:
-        html = build_html(title, hero, includes, bonus)
-        (ROOT / filename).write_text(html, encoding="utf-8")
-        print("Wrote", filename)
+    html = build_html(PAGE_TITLE, HERO_SRC, INCLUDES_TEXT, BONUS_MERGE_TAG)
+    (ROOT / OUTPUT_FILE).write_text(html, encoding="utf-8")
+    print("Wrote", OUTPUT_FILE)
 
 
 if __name__ == "__main__":
